@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC4F89D11C665ADE00102D71 /* FrontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F89D01C665ADE00102D71 /* FrontController.swift */; };
+		FC4F89D91C665DE100102D71 /* Classes2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F89D81C665DE100102D71 /* Classes2Controller.swift */; };
+		FC4F89DB1C665DF600102D71 /* Classes3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F89DA1C665DF600102D71 /* Classes3Controller.swift */; };
+		FC4F89DD1C665E0300102D71 /* Classes4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F89DC1C665E0300102D71 /* Classes4Controller.swift */; };
+		FC4F89DF1C665E1500102D71 /* Classes5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F89DE1C665E1500102D71 /* Classes5Controller.swift */; };
+		FC4F89E11C665E2300102D71 /* Classes6Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F89E01C665E2300102D71 /* Classes6Controller.swift */; };
+		FC4F8A1D1C666DDB00102D71 /* Sansation-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC4F89E21C6666CF00102D71 /* Sansation-Light.ttf */; };
+		FCBD6E181C83EE7300B67740 /* Sansation_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBD6E161C83EE5C00B67740 /* Sansation_Bold.ttf */; };
+		FCBD6E191C83EE7300B67740 /* Sansation-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBD6E171C83EE5C00B67740 /* Sansation-Regular.ttf */; };
+		FCDB262C1C7FE25900B480D4 /* Media16.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDB262B1C7FE25900B480D4 /* Media16.xcassets */; };
 		FCDC36ED1C371F0500258FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC36EC1C371F0500258FFD /* AppDelegate.swift */; };
-		FCDC36EF1C371F0500258FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC36EE1C371F0500258FFD /* ViewController.swift */; };
 		FCDC36F21C371F0500258FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDC36F01C371F0500258FFD /* Main.storyboard */; };
 		FCDC36F41C371F0500258FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC36F31C371F0500258FFD /* Assets.xcassets */; };
 		FCDC36F71C371F0500258FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDC36F51C371F0500258FFD /* LaunchScreen.storyboard */; };
@@ -34,9 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FCDC36E91C371F0500258FFD /* GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4F89D01C665ADE00102D71 /* FrontController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontController.swift; sourceTree = "<group>"; };
+		FC4F89D81C665DE100102D71 /* Classes2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Classes2Controller.swift; path = ../Classes2Controller.swift; sourceTree = "<group>"; };
+		FC4F89DA1C665DF600102D71 /* Classes3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes3Controller.swift; sourceTree = "<group>"; };
+		FC4F89DC1C665E0300102D71 /* Classes4Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes4Controller.swift; sourceTree = "<group>"; };
+		FC4F89DE1C665E1500102D71 /* Classes5Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes5Controller.swift; sourceTree = "<group>"; };
+		FC4F89E01C665E2300102D71 /* Classes6Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes6Controller.swift; sourceTree = "<group>"; };
+		FC4F89E21C6666CF00102D71 /* Sansation-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sansation-Light.ttf"; sourceTree = "<group>"; };
+		FCBD6E161C83EE5C00B67740 /* Sansation_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sansation_Bold.ttf; sourceTree = "<group>"; };
+		FCBD6E171C83EE5C00B67740 /* Sansation-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sansation-Regular.ttf"; sourceTree = "<group>"; };
+		FCDB262B1C7FE25900B480D4 /* Media16.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media16.xcassets; sourceTree = "<group>"; };
+		FCDC36E91C371F0500258FFD /* Spartan GPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spartan GPA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDC36EC1C371F0500258FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCDC36EE1C371F0500258FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCDC36F11C371F0500258FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCDC36F31C371F0500258FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCDC36F61C371F0500258FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,7 +105,7 @@
 		FCDC36EA1C371F0500258FFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCDC36E91C371F0500258FFD /* GPA Calculator.app */,
+				FCDC36E91C371F0500258FFD /* Spartan GPA.app */,
 				FCDC36FD1C371F0500258FFD /* GPA CalculatorTests.xctest */,
 				FCDC37081C371F0500258FFD /* GPA CalculatorUITests.xctest */,
 			);
@@ -98,10 +116,19 @@
 			isa = PBXGroup;
 			children = (
 				FCDC36EC1C371F0500258FFD /* AppDelegate.swift */,
-				FCDC36EE1C371F0500258FFD /* ViewController.swift */,
+				FC4F89D01C665ADE00102D71 /* FrontController.swift */,
+				FC4F89D81C665DE100102D71 /* Classes2Controller.swift */,
+				FC4F89DA1C665DF600102D71 /* Classes3Controller.swift */,
+				FC4F89DC1C665E0300102D71 /* Classes4Controller.swift */,
+				FC4F89DE1C665E1500102D71 /* Classes5Controller.swift */,
+				FC4F89E01C665E2300102D71 /* Classes6Controller.swift */,
 				FCDC36F01C371F0500258FFD /* Main.storyboard */,
 				FCDC36F31C371F0500258FFD /* Assets.xcassets */,
+				FCBD6E161C83EE5C00B67740 /* Sansation_Bold.ttf */,
+				FCBD6E171C83EE5C00B67740 /* Sansation-Regular.ttf */,
 				FCDC36F51C371F0500258FFD /* LaunchScreen.storyboard */,
+				FCDB262B1C7FE25900B480D4 /* Media16.xcassets */,
+				FC4F89E21C6666CF00102D71 /* Sansation-Light.ttf */,
 				FCDC36F81C371F0500258FFD /* Info.plist */,
 			);
 			path = "GPA Calculator";
@@ -142,7 +169,7 @@
 			);
 			name = "GPA Calculator";
 			productName = "GPA Calculator";
-			productReference = FCDC36E91C371F0500258FFD /* GPA Calculator.app */;
+			productReference = FCDC36E91C371F0500258FFD /* Spartan GPA.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FCDC36FC1C371F0500258FFD /* GPA CalculatorTests */ = {
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					FCDC36E81C371F0500258FFD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A6DKUCKS4X;
 					};
 					FCDC36FC1C371F0500258FFD = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBD6E181C83EE7300B67740 /* Sansation_Bold.ttf in Resources */,
+				FCBD6E191C83EE7300B67740 /* Sansation-Regular.ttf in Resources */,
+				FC4F8A1D1C666DDB00102D71 /* Sansation-Light.ttf in Resources */,
 				FCDC36F71C371F0500258FFD /* LaunchScreen.storyboard in Resources */,
 				FCDC36F41C371F0500258FFD /* Assets.xcassets in Resources */,
 				FCDC36F21C371F0500258FFD /* Main.storyboard in Resources */,
+				FCDB262C1C7FE25900B480D4 /* Media16.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDC36EF1C371F0500258FFD /* ViewController.swift in Sources */,
+				FC4F89DB1C665DF600102D71 /* Classes3Controller.swift in Sources */,
+				FC4F89DD1C665E0300102D71 /* Classes4Controller.swift in Sources */,
+				FC4F89DF1C665E1500102D71 /* Classes5Controller.swift in Sources */,
+				FC4F89D91C665DE100102D71 /* Classes2Controller.swift in Sources */,
+				FC4F89E11C665E2300102D71 /* Classes6Controller.swift in Sources */,
 				FCDC36ED1C371F0500258FFD /* AppDelegate.swift in Sources */,
+				FC4F89D11C665ADE00102D71 /* FrontController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +388,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SpartanGPA;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,6 +427,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SpartanGPA;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -398,22 +437,30 @@
 		FCDC37121C371F0500258FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GPA Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "GX-Solutions.GPA-Calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = JonathanPGardocki.SpartanGPA;
+				PRODUCT_NAME = "Spartan GPA";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		FCDC37131C371F0500258FFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GPA Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "GX-Solutions.GPA-Calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = JonathanPGardocki.SpartanGPA;
+				PRODUCT_NAME = "Spartan GPA";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -484,6 +531,7 @@
 				FCDC37131C371F0500258FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCDC37141C371F0500258FFD /* Build configuration list for PBXNativeTarget "GPA CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +540,7 @@
 				FCDC37161C371F0500258FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCDC37171C371F0500258FFD /* Build configuration list for PBXNativeTarget "GPA CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +549,7 @@
 				FCDC37191C371F0500258FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
